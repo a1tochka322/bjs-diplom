@@ -16,19 +16,19 @@ function getStocks(callback) {
         data: {
           RUB_USD: usd,
           RUB_EUR: eur,
-          RUB_NTC: ntc,
+          RUB_BTC: ntc,
 
           USD_RUB: +(1 / usd).toFixed(5),
           USD_EUR: +(usd / eur).toFixed(5),
-          USD_NTC: +(usd / ntc).toFixed(5),
+          USD_BTC: +(usd / ntc).toFixed(5),
 
           EUR_RUB: +(1 / eur).toFixed(5),
           EUR_USD: +(eur / usd).toFixed(5),
-          EUR_NTC: +(eur / ntc).toFixed(5),
+          EUR_BTC: +(eur / ntc).toFixed(5),
 
-          NTC_RUB: +(1 / ntc).toFixed(5),
-          NTC_USD: +(ntc / usd).toFixed(5),
-          NTC_EUR: +(ntc / eur).toFixed(5),
+          BTC_RUB: +(1 / ntc).toFixed(5),
+          BTC_USD: +(ntc / usd).toFixed(5),
+          BTC_EUR: +(ntc / eur).toFixed(5),
         },
       });
     } else callback({ success: false, error: error });

@@ -166,7 +166,7 @@ ul, ol {
 }
 
 .ui li[data-user-wallet-ntc]::after {
-  content: 'ntc';
+  content: 'btc';
 }
 
 .ui li[data-user-wallet-rub]::after, .ui li[data-user-wallet-eur]::after, .ui li[data-user-wallet-usd]::after, .ui li[data-user-wallet-ntc]::after {
